@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<unistd.h>
+int main()
+{
+	int fd=creat("mybinfile",S_IRWXU);
+	ftruncate(fd,10*1024*1024);
+	FILE *fp = fopen("mybinfile", "w");
+	char String[30];
+}

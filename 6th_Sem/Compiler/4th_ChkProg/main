@@ -1,0 +1,4 @@
+int a,c,d;
+int b, e,f;
+c = z+d;
+e = f*a;

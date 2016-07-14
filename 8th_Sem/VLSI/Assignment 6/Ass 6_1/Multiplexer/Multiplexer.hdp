@@ -1,0 +1,13 @@
+[ModelSim]
+Multiplexer_lib = $HDS_PROJECT_DIR\Multiplexer_lib\work
+[hdl]
+Multiplexer_lib = $HDS_PROJECT_DIR\Multiplexer_lib\hdl
+[hds]
+Multiplexer_lib = $HDS_PROJECT_DIR\Multiplexer_lib\hds
+[hds_settings]
+default_library = Multiplexer_lib
+version = 2
+[library_type]
+Multiplexer_lib = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

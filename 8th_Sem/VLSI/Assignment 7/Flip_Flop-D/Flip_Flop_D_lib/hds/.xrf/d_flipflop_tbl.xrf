@@ -1,0 +1,51 @@
+DESIGN @d_@flip@flop
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN @d_@flip@flop
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN @d_@flip@flop
+VIEW symbol.sb
+GRAPHIC 114,0 14 0 
+DESIGN @d_@flip@flop
+VIEW symbol.sb
+GRAPHIC 119,0 15 0 
+DESIGN @d_@flip@flop
+VIEW symbol.sb
+GRAPHIC 124,0 16 0 
+DESIGN @d_@flip@flop
+VIEW symbol.sb
+GRAPHIC 1,0 19 0 
+DESIGN @d_@flip@flop
+VIEW symbol.sb
+GRAPHIC 1,0 20 0 
+DESIGN @d_@flip@flop
+VIEW tbl.tt
+NO_GRAPHIC 23
+DESIGN @d_@flip@flop
+VIEW tbl.tt
+NO_GRAPHIC 32
+DESIGN @d_@flip@flop
+VIEW tbl.tt
+GRAPHIC 49,0 36 0 
+DESIGN @d_@flip@flop
+VIEW tbl.tt
+GRAPHIC 14,0 47 0 
+DESIGN @d_@flip@flop
+VIEW tbl.tt
+GRAPHIC 22,0 47 0 
+DESIGN @d_@flip@flop
+VIEW tbl.tt
+GRAPHIC 30,0 48 0 
+DESIGN @d_@flip@flop
+VIEW tbl.tt
+GRAPHIC 16,0 49 0 
+DESIGN @d_@flip@flop
+VIEW tbl.tt
+GRAPHIC 24,0 49 0 
+DESIGN @d_@flip@flop
+VIEW tbl.tt
+GRAPHIC 32,0 50 0 
+DESIGN @d_@flip@flop
+VIEW tbl.tt
+GRAPHIC 52,0 55 1 

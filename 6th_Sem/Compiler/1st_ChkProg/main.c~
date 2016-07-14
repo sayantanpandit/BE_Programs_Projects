@@ -1,0 +1,9 @@
+main()
+{
+  int a,b;
+  char d,e;
+  double ga;
+  long f;
+  if(c < 10)
+   printf
+}

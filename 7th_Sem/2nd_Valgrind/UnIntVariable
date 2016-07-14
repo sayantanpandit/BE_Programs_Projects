@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int boo(int y)
+{
+  if(y==2)
+     printf("Correct\n");
+}
+
+int main()
+{
+  int x;
+  boo(x);
+}

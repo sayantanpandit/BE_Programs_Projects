@@ -1,0 +1,1 @@
+ -L Flip_Flop_D_lib -l transcript.txt -i -t ns -multisource_delay latest +typdelays Flip_Flop_D_lib.D_FlipFlop(tbl)

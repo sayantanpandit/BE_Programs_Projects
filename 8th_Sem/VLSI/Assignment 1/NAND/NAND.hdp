@@ -1,0 +1,13 @@
+[ModelSim]
+NAND_lib = $HDS_PROJECT_DIR\NAND_lib\work
+[hdl]
+NAND_lib = $HDS_PROJECT_DIR\NAND_lib\hdl
+[hds]
+NAND_lib = $HDS_PROJECT_DIR\NAND_lib\hds
+[hds_settings]
+default_library = NAND_lib
+version = 2
+[library_type]
+NAND_lib = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

@@ -1,0 +1,10 @@
+9
+~mgo, ~h2, mg
+~mgo, ~h2, h2o
+~c, ~o2, co2
+~co2, ~h2o, h2co3
+mgo
+h2
+c
+o2
+~h2co3

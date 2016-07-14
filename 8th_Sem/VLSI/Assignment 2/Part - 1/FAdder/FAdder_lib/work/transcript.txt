@@ -1,0 +1,22 @@
+# vsim -L FAdder_lib -l transcript.txt -i -multisource_delay latest -t ns +typdelays -foreign {hdsInit C:/MentorGraphics/HDS2010.3/resources/downstream/modelsim/ModelSim_32Bit.dll} -pli {"C:/MentorGraphics/HDS2010.3/resources/downstream/modelsim/ModelSim_32Bit.dll"} FAdder_lib.FAdder_Gate(tbl) 
+# Loading C:/MentorGraphics/HDS2010.3/resources/downstream/modelsim/ModelSim_32Bit.dll
+# //  ModelSim PE 10.0c Jul 22 2011 
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading FAdder_lib.fadder_gate(tbl)
+#  
+add wave -r /*
+force -freeze sim:/fadder_gate/A 1 0, 0 {200 ns} -r 400
+force -freeze sim:/fadder_gate/B 1 0, 0 {100 ns} -r 200
+force -freeze sim:/fadder_gate/D 1 0, 0 {50 ns} -r 100
+run

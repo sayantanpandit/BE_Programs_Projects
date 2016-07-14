@@ -1,0 +1,13 @@
+[ModelSim]
+Flip_Flop_JK_lib = $HDS_PROJECT_DIR\Flip_Flop_JK_lib\work
+[hdl]
+Flip_Flop_JK_lib = $HDS_PROJECT_DIR/Flip_Flop_JK_lib/hdl
+[hds]
+Flip_Flop_JK_lib = $HDS_PROJECT_DIR/Flip_Flop_JK_lib/hds
+[hds_settings]
+default_library = Flip_Flop_JK_lib
+version = 2
+[library_type]
+Flip_Flop_JK_lib = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

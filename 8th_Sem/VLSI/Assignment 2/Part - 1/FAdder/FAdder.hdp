@@ -1,0 +1,13 @@
+[ModelSim]
+FAdder_lib = $HDS_PROJECT_DIR\FAdder_lib\work
+[hdl]
+FAdder_lib = $HDS_PROJECT_DIR\FAdder_lib\hdl
+[hds]
+FAdder_lib = $HDS_PROJECT_DIR\FAdder_lib\hds
+[hds_settings]
+default_library = FAdder_lib
+version = 2
+[library_type]
+FAdder_lib = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

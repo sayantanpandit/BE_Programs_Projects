@@ -1,0 +1,84 @@
+%{
+   #include <string.h>
+   #include <stdio.h>
+   #include <stdlib.h>
+   
+   #include "y.tab.h"
+   extern int yylval;
+      
+%}
+
+digit  [0-9]+
+delim  [ \t]
+ws     {delim}*
+
+%%
+auto      	{ printf("AUTO\t");  }
+break     	{ printf("BREAK\t"); }
+case      	{ printf("CASE\t");  }
+char      	{ return (CHAR);     }
+const     	{ printf("CONST\t"); }
+continue  	{ printf("CONTINUE\t"); }
+default   	{ printf("DEFAULT\t");	}
+do        	{ printf("DO\t"); }
+double          { return (DOUBLE);   }
+else            { printf("ELSE\t"); }
+enum            { printf("ENUM\t"); }
+extern          { printf("EXTERN\t"); }
+exit            { return 0; }
+float           { return (FLOAT);   }
+for             { printf("FOR\t");  }
+goto            { printf("GOTO\t"); }
+if              { printf("IF\t"); }
+int		{ return (INT);   }
+long		{ return (LONG);  }
+main		{ printf("IDENTIFIER\t"); }
+register	{ printf("REGISTER\t"); }
+return		{ printf("RETURN\t"); }
+short		{ printf("SHORT\t"); }
+signed		{ printf("SIGNED\t"); }
+sizeof		{ printf("SIZEOF\t"); }
+static		{ printf("STATIC\t"); }
+struct		{ printf("STRUCT\t"); }
+switch		{ printf("SWITCH\t"); }
+typedef		{ printf("TYPEDEF\t"); }
+union		{ printf("UNION\t"); }
+unsigned	{ printf("UNSIGNED\t"); }
+void		{ printf("VOID\t"); }
+volatile	{ printf("VOLATILE\t"); }
+while		{ printf("WHILE\t"); }
+
+"<" 		{ printf("RELOP\t"); }
+"<=" 		{ printf("RELOP\t"); }
+">" 		{ printf("RELOP\t"); }
+">=" 		{ printf("RELOP\t"); }
+"==" 		{ printf("RELOP\t"); }
+"!=" 		{ printf("RELOP\t"); }
+"!"		{ printf("RELOP\t"); }
+"=" 		{ printf("RELOP\t"); }
+"+=" 		{ printf("RELOP\t"); }
+"-=" 		{ printf("RELOP\t"); }
+"*=" 		{ printf("RELOP\t"); }
+"/=" 		{ printf("RELOP\t"); }
+
+"+" 		{ printf("OPERATOR\t"); }
+"-" 		{ printf("OPERATOR\t"); }
+"*" 		{ printf("OPERATOR\t"); }
+"/"  		{ printf("OPERATOR\t"); }
+"," 		{ printf("OPERATOR\t"); }
+"(" 		{ printf("DELIM\t"); }
+")" 		{ printf("DELIM\t"); }
+"[" 		{ printf("DELIM\t"); }
+"]" 		{ printf("DELIM\t"); }
+
+"_"		{ return (UNDERSCORE);}
+";"		{ return (SEMICOLON); }
+
+"\n" 		{ /*printf("\n"); */}
+
+{digit}         { return (CONSTANT);   /*printf("DIGIT\t");*/ }
+[a-zA-Z]*       { return (IDENTIFIER);     /*printf("IDENTIFIER\t"); strcpy(localName, yytext);*/ }
+{ws}            { /*No action and no return*/ }
+[-#<>{}=+*/.]   { printf("DELIM"); }
+
+%%

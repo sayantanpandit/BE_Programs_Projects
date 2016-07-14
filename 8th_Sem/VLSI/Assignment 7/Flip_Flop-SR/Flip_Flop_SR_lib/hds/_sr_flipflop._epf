@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom tbl
+DEFAULT_FILE atom @s@r_@flip@flop/tbl.tt

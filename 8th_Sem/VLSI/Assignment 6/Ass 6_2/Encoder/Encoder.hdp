@@ -1,0 +1,13 @@
+[ModelSim]
+Encoder_lib = $HDS_PROJECT_DIR\Encoder_lib\work
+[hdl]
+Encoder_lib = $HDS_PROJECT_DIR\Encoder_lib\hdl
+[hds]
+Encoder_lib = $HDS_PROJECT_DIR\Encoder_lib\hds
+[hds_settings]
+default_library = Encoder_lib
+version = 2
+[library_type]
+Encoder_lib = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

@@ -1,0 +1,12 @@
+Remarks: Only Addition and Multiplication are allowed.
+
+
+To run this program, follows this Guidelines:
+1. Compile the filename with -lpthread 
+   Example: cc Thread.c -lpthread -o Thread
+2. Run the binary file that produced from compilation of a program
+   Example: 
+   A. For Sum:     ./Thread a b c d +
+   B. For Product: ./Thread a b c d \* 
+                   ("\*"- \ is escape sequence. It's used to input 
+                          some "not allowed" character in terminal.)

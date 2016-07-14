@@ -1,0 +1,11 @@
+[hdl]
+FullAdder1_lib = $HDS_PROJECT_DIR\FullAdder1_lib\hdl
+[hds]
+FullAdder1_lib = $HDS_PROJECT_DIR\FullAdder1_lib\hds
+[hds_settings]
+default_library = FullAdder1_lib
+version = 2
+[library_type]
+FullAdder1_lib = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

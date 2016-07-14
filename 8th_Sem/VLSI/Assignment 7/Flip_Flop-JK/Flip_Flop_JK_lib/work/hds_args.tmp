@@ -1,0 +1,1 @@
+ -L Flip_Flop_JK_lib -l transcript.txt -i -t ns -multisource_delay latest +typdelays Flip_Flop_JK_lib.JK_Flip(tbl)

@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom tbl
+DEFAULT_FILE atom @f@adder_@gate/tbl.tt

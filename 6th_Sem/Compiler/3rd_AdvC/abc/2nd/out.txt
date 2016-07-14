@@ -1,0 +1,6 @@
+MOV B,a 
+ADD B,d
+MOV c, C
+MOV D,f 
+MUL D,a
+MOV e, E

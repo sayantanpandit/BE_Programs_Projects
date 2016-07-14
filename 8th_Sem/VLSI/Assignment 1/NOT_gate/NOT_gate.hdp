@@ -1,0 +1,13 @@
+[ModelSim]
+NOT_gate_lib = $HDS_PROJECT_DIR\NOT_gate_lib\work
+[hdl]
+NOT_gate_lib = $HDS_PROJECT_DIR\NOT_gate_lib\hdl
+[hds]
+NOT_gate_lib = $HDS_PROJECT_DIR\NOT_gate_lib\hds
+[hds_settings]
+default_library = NOT_gate_lib
+version = 2
+[library_type]
+NOT_gate_lib = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include<stdbool.h>
+typedef struct
+{
+  int value;
+  int key;
+}item;
+        printf("Delete Max Value = %d Key = %d\n\n",delMaxItem.value, delMaxItem.key );
+     }
+     else if(choice == 4)
+     {
+         int val, newKeyVal;
+         printf("Enter the element's value :: ");
+         scanf("%d", &val);
+         printf("Enter the new key value :: ");
+         scanf("%d", &newKeyVal);
+         Heap_IncreaseKey(arr,&itemno, val, newKeyVal);
+     }
+    else if(choice == 5)
+        exit(1);
+    else
+       printf("You have entered wrong choice...Try Again\n");
+   }
+}

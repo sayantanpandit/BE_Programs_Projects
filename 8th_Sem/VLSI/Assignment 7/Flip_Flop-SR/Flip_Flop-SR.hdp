@@ -1,0 +1,13 @@
+[ModelSim]
+Flip_Flop_SR_lib = $HDS_PROJECT_DIR\Flip_Flop_SR_lib\work
+[hdl]
+Flip_Flop_SR_lib = $HDS_PROJECT_DIR\Flip_Flop_SR_lib\hdl
+[hds]
+Flip_Flop_SR_lib = $HDS_PROJECT_DIR\Flip_Flop_SR_lib\hds
+[hds_settings]
+default_library = Flip_Flop_SR_lib
+version = 2
+[library_type]
+Flip_Flop_SR_lib = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

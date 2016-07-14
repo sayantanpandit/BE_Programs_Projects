@@ -1,0 +1,159 @@
+DESIGN @f@adder_@gate
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN @f@adder_@gate
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN @f@adder_@gate
+VIEW symbol.sb
+GRAPHIC 118,0 14 0 
+DESIGN @f@adder_@gate
+VIEW symbol.sb
+GRAPHIC 123,0 15 0 
+DESIGN @f@adder_@gate
+VIEW symbol.sb
+GRAPHIC 128,0 16 0 
+DESIGN @f@adder_@gate
+VIEW symbol.sb
+GRAPHIC 138,0 17 0 
+DESIGN @f@adder_@gate
+VIEW symbol.sb
+GRAPHIC 133,0 18 0 
+DESIGN @f@adder_@gate
+VIEW symbol.sb
+GRAPHIC 1,0 21 0 
+DESIGN @f@adder_@gate
+VIEW symbol.sb
+GRAPHIC 1,0 22 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+NO_GRAPHIC 25
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+NO_GRAPHIC 34
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 73,0 38 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 146,0 49 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 182,0 49 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 184,0 49 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 152,0 50 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 220,0 51 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 22,0 52 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 186,0 52 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 38,0 52 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 214,0 53 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 228,0 54 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 156,0 55 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 202,0 55 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 188,0 55 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 216,0 56 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 222,0 57 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 240,0 58 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 194,0 58 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 196,0 58 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 218,0 59 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 58,0 60 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 208,0 61 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 198,0 61 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 242,0 61 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 248,0 62 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 224,0 63 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 172,0 64 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 244,0 64 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 200,0 64 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 178,0 65 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 226,0 66 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 230,0 67 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 232,0 67 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 246,0 67 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 236,0 68 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 250,0 69 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 212,0 70 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 36,0 70 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 44,0 70 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 52,0 71 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 60,0 72 0 
+DESIGN @f@adder_@gate
+VIEW tbl.tt
+GRAPHIC 76,0 77 1 

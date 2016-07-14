@@ -1,0 +1,1 @@
+ -L Encoder_lib -l transcript.txt -i -t ns -multisource_delay latest +typdelays Encoder_lib.EncoderParity(tbl)

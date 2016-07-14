@@ -1,0 +1,150 @@
+DESIGN @encoder@parity
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN @encoder@parity
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN @encoder@parity
+VIEW symbol.sb
+GRAPHIC 122,0 14 0 
+DESIGN @encoder@parity
+VIEW symbol.sb
+GRAPHIC 127,0 15 0 
+DESIGN @encoder@parity
+VIEW symbol.sb
+GRAPHIC 132,0 16 0 
+DESIGN @encoder@parity
+VIEW symbol.sb
+GRAPHIC 137,0 17 0 
+DESIGN @encoder@parity
+VIEW symbol.sb
+GRAPHIC 152,0 18 0 
+DESIGN @encoder@parity
+VIEW symbol.sb
+GRAPHIC 142,0 19 0 
+DESIGN @encoder@parity
+VIEW symbol.sb
+GRAPHIC 147,0 20 0 
+DESIGN @encoder@parity
+VIEW symbol.sb
+GRAPHIC 1,0 23 0 
+DESIGN @encoder@parity
+VIEW symbol.sb
+GRAPHIC 1,0 24 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+NO_GRAPHIC 27
+DESIGN @encoder@parity
+VIEW tbl.tt
+NO_GRAPHIC 36
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 97,0 40 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 30,0 51 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 38,0 51 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 46,0 51 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 54,0 51 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 62,0 52 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 70,0 53 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 78,0 54 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 32,0 55 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 40,0 55 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 48,0 55 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 56,0 55 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 64,0 56 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 72,0 57 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 80,0 58 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 34,0 59 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 42,0 59 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 50,0 59 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 58,0 59 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 66,0 60 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 74,0 61 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 82,0 62 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 170,0 63 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 172,0 63 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 174,0 63 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 176,0 63 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 178,0 64 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 180,0 65 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 182,0 66 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 36,0 67 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 44,0 67 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 52,0 67 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 60,0 67 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 68,0 68 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 76,0 69 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 84,0 70 0 
+DESIGN @encoder@parity
+VIEW tbl.tt
+GRAPHIC 100,0 75 1 

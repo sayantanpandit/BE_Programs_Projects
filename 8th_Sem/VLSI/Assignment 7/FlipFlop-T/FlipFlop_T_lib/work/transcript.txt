@@ -1,0 +1,31 @@
+# vsim -L FlipFlop_T_lib -l transcript.txt -i -multisource_delay latest -t ns +typdelays -foreign {hdsInit C:/MentorGraphics/HDS2010.3/resources/downstream/modelsim/ModelSim_32Bit.dll} -pli {"C:/MentorGraphics/HDS2010.3/resources/downstream/modelsim/ModelSim_32Bit.dll"} FlipFlop_T_lib.T_flip_flop(tbl) 
+# Loading C:/MentorGraphics/HDS2010.3/resources/downstream/modelsim/ModelSim_32Bit.dll
+# //  ModelSim PE 10.0c Jul 22 2011 
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading FlipFlop_T_lib.t_flip_flop(tbl)
+#  
+add wave -r /*
+force -freeze sim:/t_flip_flop/T 1 0, 0 {150 ns} -r 300
+run
+# hds_restart 
+restart -force
+# Loading C:/MentorGraphics/HDS2010.3/resources/downstream/modelsim/ModelSim_32Bit.dll
+# Loading FlipFlop_T_lib.t_flip_flop(tbl)
+add wave -r /*
+force -freeze sim:/t_flip_flop/Q 1 0, 0 {50 ns} -r 100
+force -freeze sim:/t_flip_flop/T 1 0, 0 {100 ns} -r 200
+run
+# 0
+# 
+# The connection to HDS has been closed 

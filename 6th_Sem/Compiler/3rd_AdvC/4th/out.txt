@@ -1,0 +1,3 @@
+MOV AX,a 
+ADD AX,b
+MOV t1,AX

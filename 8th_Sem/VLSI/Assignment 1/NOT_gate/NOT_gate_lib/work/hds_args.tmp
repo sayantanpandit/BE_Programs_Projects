@@ -1,0 +1,1 @@
+ -L NOT_gate_lib -l transcript.txt -i -t ns -multisource_delay latest +typdelays NOT_gate_lib.NOT_gate(tbl)
