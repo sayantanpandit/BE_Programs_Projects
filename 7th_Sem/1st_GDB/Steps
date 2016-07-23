@@ -1,0 +1,26 @@
+1. cc -g Testing.c -o Test
+   Now type gdb and press Enter
+2. file Test
+3. break Testing.c:9
+4. print <variable name>
+5. print <arr name> or *arr@len
+6. info args
+7. Next
+   Continue
+   Set
+8. 
+9. info break
+10. ignore  1 5
+11. dis 1 -----disable
+    ena 1 ----enable
+12. 
+13. bt
+14.  
+15.
+16. ulimit -c unlimited
+    gdb corelist 
+    file Test
+    r core 
+
+
+

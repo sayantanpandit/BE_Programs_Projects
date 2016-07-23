@@ -1,0 +1,43 @@
+1.	gcc -g test.c -o test.out// page 25 of the book, 40 in total
+2.	using -g loads the symbol table;
+	$gdb ./a.out
+	(gdb) file output.o
+	Output shown:Reading symbols from /home/atlas8/student/be2012/atish/7thsem/answer.out...done.
+3. 	Load the file. using file answer.out
+	break [linenumber]
+	Breakpoint 1 at 0x1000052c: file Assignment1.c, line 12.
+	break functionname- this finds the function and inserts a break in the line immediately after the function
+	info break -gives all break points.
+	on entering "run" the program stops at break;
+	type "next" to reach next breakpoint.
+4.	when program running useing breakpoint then when the 1st break is encountered, enter "bt", see the frames.
+	select one of the frames using select -frame [framenumber]
+	then "info locals"
+	info variables
+5.	when program running using breakpoint then when the 1st break is encountered,
+	print <arrayname>
+	print <arrayname>@<length> -starting from the array location in memory it prints successive values of cells as a set of <length> as 		found in memory.
+	print &arrayname -displays address
+6.	after entering into the called function scope;
+	use info args or use backtrace
+7.	next doesn't go into the routine called,
+	continue executes uptill next break,
+	set is used to set a particular value for a variable
+8.	step #number of times
+9.	info breakpoints;  shows all breakpoints
+	delete <breakpoint_number>
+11.	enable <breakpoint_number>
+	disable <breakpoint_number>
+10.	ignore <breakpoint_number> <number of times to be ignored>
+12.	break <linenumber/function> if <conditional>
+13. 	backtrace and frame used in conjecture
+	info frame <frame_number; if not specifed show default frame>
+17. 	watch variable name; breaks the program if the value of the variable
+	is changed,
+16. 	ps -ef ; shows all the procesess, identify the pid of the process;
+	then use gdb <executable> <pid>
+12.	command <breakpoint number>
+	->use gdb commands 
+	->use end at the end.
+
+
